@@ -2,7 +2,7 @@
 
 The official code of CDistNet.
 - Paper Link : [arxiv](http://arxiv.org/abs/2111.11011) 
-![pipline](./utils/fig1.pdf)
+![pipline](./utils/fig2_00.png)
 ## To Do List
 * [x] HA-IC13 & CA-IC13
 * [x] Pre-train model
@@ -13,7 +13,7 @@ The official code of CDistNet.
 ## Two New Datasets 
 we test other sota method in HA-IC13 and CA-IC13 datasets. 
 
- ![HA_CA](./utils/fig5.pdf)
+ ![HA_CA](./utils/fig5_00.png)
 **CDistNet has a performance advantage over other SOTA methods as the character distance increases (1-6)**
 ### HA-IC13
 |Method |1 | 2 | 3 | 4 | 5 | 6 | Code & Pretrain model|
