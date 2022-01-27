@@ -1,0 +1,15 @@
+einops==0.3.0
+matplotlib==3.4.1
+mmcv==1.2.6
+notebook==6.2.0
+numpy
+opencv-python==4.5.1.48
+Pillow==8.2.0
+tensorboardX==2.1
+tensorflow==2.4.1
+thop==0.0.31.post2005241907
+timm==0.4.5
+torch==1.5.0+cu92
+torchvision==0.6.0+cu92
+tornado==6.1
+tqdm==4.56.2
