@@ -102,7 +102,8 @@ def test(cfg):
     # vision more res
     translator = Translator(cfg, model)
     val_dataloader = make_data_loader(cfg, is_train=False)
-    word2idx, idx2word = load_vocab('datasets/en_vocab', 40)
+    # word2idx, idx2word = load_vocab('datasets/en_vocab', 40)
+    word2idx, idx2word = load_vocab(cfg.dst_vocab, cfg.dst_vocab_size)
     cnt = 1
     with open('pred.txt', 'w') as f:
         for batch in tqdm(val_dataloader):
@@ -122,9 +123,9 @@ def test_one(cfg, args):
     # model_path = 'models/baseline_20_epoch_wh_44/model_epoch_10.pth'
     # prepare model
     model = build_CDistNet(cfg)
-    en = get_parameter_number(model.transformer.encoder)
-    de = get_parameter_number(model.transformer.decoder)
-    print('encoder:{}\ndecoder:{}\n'.format(en,de))
+    # en = get_parameter_number(model.transformer.encoder)
+    # de = get_parameter_number(model.transformer.decoder)
+    # print('encoder:{}\ndecoder:{}\n'.format(en,de))
     model_path = 'models/new_baseline_dssnetv3_3_32*128_tps_resnet45_epoch_6/epoch9_best_acc.pth'
     model.load_state_dict(torch.load(model_path))
     device = torch.device(cfg.test.device)
