@@ -1,7 +1,7 @@
 # CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition
 
 The official code of CDistNet.
-- Paper Link : [arxiv](http://arxiv.org/abs/2111.11011) 
+<!-- - Paper Link : [arxiv](http://arxiv.org/abs/2111.11011)  -->
 ![pipline](./utils/fig2_00.png)
 ## To Do List
 * [x] HA-IC13 & CA-IC13
