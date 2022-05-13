@@ -2,6 +2,7 @@
 
 The official code of CDistNet.
 <!-- - Paper Link : [arxiv](http://arxiv.org/abs/2111.11011)  -->
+ As a different paradigm, we have great confidence in CDistNet's continued **high recognition performance across multiple scenarios**. To do this, we explore the reasons for ABINet's high performance. The separation of LM and VM gives ABINet even more performance improvements. To this end, we also applied training strategies to CDistNetv2 to find more room for improvement. Be more concerned about CDistNet~
 ![pipline](./utils/fig2_00.png)
 ## To Do List
 * [x] HA-IC13 & CA-IC13
@@ -99,4 +100,13 @@ Performances of the pretrained models are summaried as follows:
 `CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --config=configs/CDistNet_config.py`
 ## Eval
 `CUDA_VISIBLE_DEVICES=0 python eval.py --config=configs/CDistNet_config.py`
-
+## Citation
+```bash 
+@article{Zheng2021CDistNetPM,
+  title={CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition},
+  author={Tianlun Zheng and Zhineng Chen and Shancheng Fang and Hongtao Xie and Yu-Gang Jiang},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2111.11011}
+}
+```
