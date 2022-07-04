@@ -4,7 +4,7 @@ The official code of CDistNet.
 
 Paper Link : [Arxiv Link](http://arxiv.org/abs/2111.11011) 
 
- As a different paradigm, we have great confidence in CDistNet's continued **high recognition performance across multiple scenarios**. To do this, we explore the reasons for ABINet's high performance. The separation of LM and VM gives ABINet even more performance improvements. To this end, we also applied training strategies to CDistNetv2 to find more room for improvement. Be more concerned about CDistNet~
+
 ![pipline](./utils/fig2_00.png)
 ## To Do List
 * [x] HA-IC13 & CA-IC13
