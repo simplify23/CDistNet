@@ -4,6 +4,7 @@ The official code of CDistNet.
 
 Paper Link : [Arxiv Link](http://arxiv.org/abs/2111.11011) 
 
+Our Paper is accepted by IJCV
 
 ![pipline](./utils/fig2_00.png)
 ## To Do List
