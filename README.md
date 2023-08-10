@@ -4,7 +4,10 @@ The official code of CDistNet.
 
 Paper Link : [Arxiv Link](http://arxiv.org/abs/2111.11011) 
 
-Our Paper is accepted by IJCV
+## What's News
+
+- [2023-08]🌟 Our Paper is accepted by IJCV
+- [2021-11]🌟 The paper can read in Arixv
 
 ![pipline](./utils/fig2_00.png)
 ## To Do List
