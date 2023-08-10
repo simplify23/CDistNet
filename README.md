@@ -6,8 +6,9 @@ Paper Link : [Arxiv Link](http://arxiv.org/abs/2111.11011)
 
 ## What's News
 
-- [2023-08]🌟 Our Paper is accepted by IJCV
-- [2021-11]🌟 The paper can read in Arixv
+- [2023-08]🌟 Our paper is accepted by IJCV
+- [2022-01]🌟 Our code is released in github
+- [2021-11]🌟 The paper can be read in Arixv: http://arxiv.org/abs/2111.11011
 
 ![pipline](./utils/fig2_00.png)
 ## To Do List
